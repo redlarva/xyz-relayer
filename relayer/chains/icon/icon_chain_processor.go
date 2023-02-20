@@ -5,8 +5,8 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/cosmos/relayer/v2/relayer/processor"
-	"github.com/cosmos/relayer/v2/relayer/provider"
+	"github.com/icon-project/ibc-relayer/relayer/processor"
+	"github.com/icon-project/ibc-relayer/relayer/provider"
 )
 
 type IconChainProcessor struct {

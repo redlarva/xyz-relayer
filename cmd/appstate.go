@@ -10,7 +10,7 @@ import (
 	"path"
 	"time"
 
-	"github.com/cosmos/relayer/v2/relayer"
+	"github.com/icon-project/ibc-relayer/relayer"
 	"github.com/juju/fslock"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"

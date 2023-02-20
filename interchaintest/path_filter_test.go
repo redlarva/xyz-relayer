@@ -6,9 +6,9 @@ import (
 	"testing"
 
 	transfertypes "github.com/cosmos/ibc-go/v7/modules/apps/transfer/types"
-	relayerinterchaintest "github.com/cosmos/relayer/v2/interchaintest"
-	"github.com/cosmos/relayer/v2/relayer"
-	"github.com/cosmos/relayer/v2/relayer/processor"
+	relayerinterchaintest "github.com/icon-project/ibc-relayer/interchaintest"
+	"github.com/icon-project/ibc-relayer/relayer"
+	"github.com/icon-project/ibc-relayer/relayer/processor"
 	interchaintest "github.com/strangelove-ventures/interchaintest/v7"
 	"github.com/strangelove-ventures/interchaintest/v7/chain/cosmos"
 	"github.com/strangelove-ventures/interchaintest/v7/ibc"

@@ -24,10 +24,10 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/cosmos/relayer/v2/internal/relaydebug"
-	"github.com/cosmos/relayer/v2/relayer"
-	"github.com/cosmos/relayer/v2/relayer/chains/cosmos"
-	"github.com/cosmos/relayer/v2/relayer/processor"
+	"github.com/icon-project/ibc-relayer/internal/relaydebug"
+	"github.com/icon-project/ibc-relayer/relayer"
+	"github.com/icon-project/ibc-relayer/relayer/chains/cosmos"
+	"github.com/icon-project/ibc-relayer/relayer/processor"
 	"github.com/spf13/cobra"
 	"go.uber.org/zap"
 )

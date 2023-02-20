@@ -6,7 +6,7 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	ibcexported "github.com/cosmos/ibc-go/v7/modules/core/exported"
-	"github.com/cosmos/relayer/v2/relayer/provider"
+	"github.com/icon-project/ibc-relayer/relayer/provider"
 
 	transfertypes "github.com/cosmos/ibc-go/v7/modules/apps/transfer/types"
 	clienttypes "github.com/cosmos/ibc-go/v7/modules/core/02-client/types"
@@ -14,7 +14,9 @@ import (
 	chantypes "github.com/cosmos/ibc-go/v7/modules/core/04-channel/types"
 )
 
-func (icp *IconProvider) BlockTime(ctx context.Context, height int64) (time.Time, error)
+func (icp *IconProvider) BlockTime(ctx context.Context, height int64) (time.Time, error) {
+	return time.Time{}, nil
+}
 
 func (icp *IconProvider) QueryTx(ctx context.Context, hashHex string) (*provider.RelayerTxResponse, error) {
 	return nil, nil

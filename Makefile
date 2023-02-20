@@ -16,9 +16,9 @@ all: lint install
 # Build / Install
 ###############################################################################
 
-ldflags = -X github.com/cosmos/relayer/v2/cmd.Version=$(VERSION) \
-					-X github.com/cosmos/relayer/v2/cmd.Commit=$(COMMIT) \
-					-X github.com/cosmos/relayer/v2/cmd.Dirty=$(DIRTY)
+ldflags = -X github.com/icon-project/ibc-relayer/cmd.Version=$(VERSION) \
+					-X github.com/icon-project/ibc-relayer/cmd.Commit=$(COMMIT) \
+					-X github.com/icon-project/ibc-relayer/cmd.Dirty=$(DIRTY)
 
 ldflags += $(LDFLAGS)
 ldflags := $(strip $(ldflags))

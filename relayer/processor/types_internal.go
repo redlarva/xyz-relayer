@@ -6,7 +6,7 @@ import (
 	"sync"
 
 	chantypes "github.com/cosmos/ibc-go/v7/modules/core/04-channel/types"
-	"github.com/cosmos/relayer/v2/relayer/provider"
+	"github.com/icon-project/ibc-relayer/relayer/provider"
 	"go.uber.org/zap/zapcore"
 )
 

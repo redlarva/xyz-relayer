@@ -8,9 +8,9 @@ import (
 	"path"
 	"strings"
 
-	"github.com/cosmos/relayer/v2/relayer"
-	"github.com/cosmos/relayer/v2/relayer/processor"
 	"github.com/google/go-github/v43/github"
+	"github.com/icon-project/ibc-relayer/relayer"
+	"github.com/icon-project/ibc-relayer/relayer/processor"
 	"github.com/spf13/cobra"
 	"gopkg.in/yaml.v3"
 )

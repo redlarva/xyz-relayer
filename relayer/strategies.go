@@ -10,8 +10,8 @@ import (
 
 	"github.com/avast/retry-go/v4"
 	"github.com/cosmos/ibc-go/v7/modules/core/04-channel/types"
-	"github.com/cosmos/relayer/v2/relayer/chains/cosmos"
-	"github.com/cosmos/relayer/v2/relayer/processor"
+	"github.com/icon-project/ibc-relayer/relayer/chains/cosmos"
+	"github.com/icon-project/ibc-relayer/relayer/processor"
 	"go.uber.org/zap"
 )
 

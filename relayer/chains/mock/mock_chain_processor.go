@@ -4,9 +4,9 @@ import (
 	"context"
 	"time"
 
-	"github.com/cosmos/relayer/v2/relayer/chains/cosmos"
-	"github.com/cosmos/relayer/v2/relayer/processor"
-	"github.com/cosmos/relayer/v2/relayer/provider"
+	"github.com/icon-project/ibc-relayer/relayer/chains/cosmos"
+	"github.com/icon-project/ibc-relayer/relayer/processor"
+	"github.com/icon-project/ibc-relayer/relayer/provider"
 
 	chantypes "github.com/cosmos/ibc-go/v7/modules/core/04-channel/types"
 	"go.uber.org/zap"

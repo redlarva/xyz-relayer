@@ -1,7 +1,7 @@
 package icon
 
 import (
-	"github.com/cosmos/relayer/v2/relayer/provider"
+	"github.com/icon-project/ibc-relayer/relayer/provider"
 )
 
 func (cp *IconProvider) CreateKeystore(path string) error {

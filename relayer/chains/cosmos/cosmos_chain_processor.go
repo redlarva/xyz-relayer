@@ -12,8 +12,8 @@ import (
 	clienttypes "github.com/cosmos/ibc-go/v7/modules/core/02-client/types"
 	conntypes "github.com/cosmos/ibc-go/v7/modules/core/03-connection/types"
 	chantypes "github.com/cosmos/ibc-go/v7/modules/core/04-channel/types"
-	"github.com/cosmos/relayer/v2/relayer/processor"
-	"github.com/cosmos/relayer/v2/relayer/provider"
+	"github.com/icon-project/ibc-relayer/relayer/processor"
+	"github.com/icon-project/ibc-relayer/relayer/provider"
 
 	ctypes "github.com/tendermint/tendermint/rpc/core/types"
 	"go.uber.org/zap"
